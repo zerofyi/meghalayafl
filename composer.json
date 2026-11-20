@@ -16,7 +16,7 @@
         "laravel/framework": "^13.17",
         "laravel/tinker": "^3.0",
         "laravel/wayfinder": "^0.1.14",
-        "zerofyi/shipit": "^2.0"
+        "zerofyi/shipit": "^2.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.24",

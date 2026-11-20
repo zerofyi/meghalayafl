@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a262622e7d04a88c63e3fc0006026042",
+    "content-hash": "d445c88287f9c468063fa9547f0a1267",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -7907,22 +7907,29 @@
         },
         {
             "name": "zerofyi/shipit",
-            "version": "v2.0.2",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zerofyi/shipit.git",
-                "reference": "2af50fa3c0b9c65a8a0048e635aaef26e8f17978"
+                "reference": "fc0911bc995908a34dcb2a2e5eff0297f1641194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zerofyi/shipit/zipball/2af50fa3c0b9c65a8a0048e635aaef26e8f17978",
-                "reference": "2af50fa3c0b9c65a8a0048e635aaef26e8f17978",
+                "url": "https://api.github.com/repos/zerofyi/shipit/zipball/fc0911bc995908a34dcb2a2e5eff0297f1641194",
+                "reference": "fc0911bc995908a34dcb2a2e5eff0297f1641194",
                 "shasum": ""
             },
             "require": {
                 "illuminate/console": "^10.0|^11.0|^12.0|^13.0",
+                "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
+                "illuminate/process": "^10.0|^11.0|^12.0|^13.0",
                 "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
                 "php": "^8.1"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^7.8",
+                "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^10.5|^11.0"
             },
             "type": "library",
             "extra": {
@@ -7949,20 +7956,22 @@
                     "role": "Creator"
                 }
             ],
-            "description": "A zero-dependency dual-protocol deployment wizard for Hostinger shared hosting.",
+            "description": "A zero-dependency dual-protocol deployment wizard for Hostinger shared hosting (push:github + push:hostinger) with pre-deploy backups, one-command rollback and selective file deployments.",
             "keywords": [
+                "backup",
                 "deployment",
                 "git",
                 "hostinger",
                 "laravel",
+                "rollback",
                 "ssh"
             ],
             "support": {
                 "issues": "https://github.com/zerofyi/shipit/issues",
-                "source": "https://github.com/zerofyi/shipit/tree/v2.0.2"
+                "source": "https://github.com/zerofyi/shipit/tree/v2.2.1"
             },
-            "time": "2026-10-01T08:01:59+00:00",
-            "published-time": "2026-10-01T08:02:18+00:00"
+            "time": "2026-11-20T19:09:57+00:00",
+            "published-time": "2026-11-20T19:55:22+00:00"
         }
     ],
     "packages-dev": [
